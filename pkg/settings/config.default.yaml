@@ -1,0 +1,23 @@
+Base:
+  RunMode: debug
+  HTTPPort: 8888
+  ReadTimeout:  100
+  WriteTimeout: 100
+  PageSize: 10
+  JwtSecret:  default
+Db:
+  DriverName: mysql
+  DBUrl: dbforblog:dbforblog@tcp(ip:port)/dbforblog?charset=utf8
+Fcoin:
+  FcoinKey:
+  FcoinSecret:
+DingDing:
+
+  AppKey:   11
+  AppSecret: 111
+  ChatId : 11
+  Url: https://oapi.dingtalk.com
+WeiXin:
+  AppKey:   11
+  AppSecret: 11
+  Url: https://api.weixin.qq.com
